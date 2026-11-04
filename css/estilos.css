@@ -1,0 +1,40 @@
+/* ==========================================================
+   El Satélite del BOM · Estilos compartidos
+   ========================================================== */
+
+/* Variables de diseño */
+:root {
+  --color-fondo: #0f172a;
+  --color-texto: #e2e8f0;
+  --color-acento: #38bdf8;
+  --radio: 8px;
+  --fuente: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Reset mínimo */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: var(--fuente);
+  line-height: 1.5;
+}
+
+.contenedor {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* La ventana satélite es pequeña (400x300): menos espacio */
+.contenedor--satelite {
+  padding: 1rem;
+}
