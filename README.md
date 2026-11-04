@@ -25,7 +25,9 @@ Una ventana principal abre una ventana *satélite* centrada en pantalla. Desde e
 
 ## Demo en vivo
 
-_Pendiente de despliegue._
+[https://jramonnv0786-prog.github.io/El-Satelite-del-BOM/](https://jramonnv0786-prog.github.io/El-Satelite-del-BOM/)
+
+> Para comprobar el centrado, abre la demo en el monitor principal.
 
 ## Uso en local
 
