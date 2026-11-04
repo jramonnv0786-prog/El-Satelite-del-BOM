@@ -56,3 +56,13 @@ button:hover,
 button:focus-visible {
   filter: brightness(1.15);
 }
+
+/* Ventana satélite: elementos más compactos para que todo quepa en 400x300 */
+.contenedor--satelite h1 {
+  font-size: 1.5rem;
+}
+
+.contenedor--satelite button {
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+}

@@ -38,3 +38,17 @@ document.getElementById('btnConHistorial').addEventListener('click', () => {
 document.getElementById('btnSinHistorial').addEventListener('click', () => {
   window.opener.location.replace(URL_ILERNA);
 });
+
+// Hito 3: autodestrucción con setTimeout().
+
+const TIEMPO_AUTODESTRUCCION = 5000; // 5 segundos en milisegundos
+
+document.getElementById('btnAutodestruccion').addEventListener('click', () => {
+  // Mensaje visual durante la cuenta atrás.
+  document.getElementById('mensajeCuentaAtras').textContent = 'Cerrando en 5 segundos...';
+
+  // Al cumplirse el tiempo, la ventana se cierra sola.
+  setTimeout(() => {
+    window.close();
+  }, TIEMPO_AUTODESTRUCCION);
+});
