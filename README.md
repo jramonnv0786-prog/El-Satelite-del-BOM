@@ -17,7 +17,7 @@ Una ventana principal abre una ventana *satélite* centrada en pantalla. Desde e
 ├── index.html        Ventana principal
 ├── satelite.html     Ventana satélite
 ├── analisis.md       Respuestas teóricas (Hito 0)
-├── css/estilos.css   Estilos compartidos
+├── css/styles.css    Estilos compartidos
 └── js/
     ├── main.js       Lógica de la ventana principal
     └── satelite.js   Lógica de la ventana satélite
