@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * satelite.js · Lógica de la ventana satélite (satelite.html)
  */
