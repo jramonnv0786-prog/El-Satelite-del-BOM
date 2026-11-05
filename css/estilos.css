@@ -4,9 +4,11 @@
 
 /* Variables de diseño */
 :root {
-  --color-fondo: #0f172a;
-  --color-texto: #e2e8f0;
-  --color-acento: #38bdf8;
+  --color-fondo: #ffffff;
+  --color-texto: #1e293b;
+  --color-boton: #2563eb;
+  --color-principal: #166534;
+  --color-texto-boton: #ffffff;
   --radio: 8px;
   --fuente: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
@@ -45,11 +47,16 @@ button {
   margin-top: 1rem;
   border: none;
   border-radius: var(--radio);
-  background: var(--color-acento);
-  color: var(--color-fondo);
+  background: var(--color-boton);
+  color: var(--color-texto-boton);
   font: inherit;
   font-weight: 600;
   cursor: pointer;
+}
+
+/* Botón principal: verde oscuro */
+.boton--principal {
+  background: var(--color-principal);
 }
 
 button:hover,
@@ -63,6 +70,7 @@ button:focus-visible {
 }
 
 .contenedor--satelite button {
+  background: var(--color-principal);
   padding: 0.5rem 1rem;
   margin-top: 0.5rem;
 }
